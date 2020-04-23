@@ -1,0 +1,12 @@
+---
+stages:
+  - build
+  - test
+
+build:
+  image: node:12
+  stage: build
+  
+test:
+  image: node:12
+  stage: test
