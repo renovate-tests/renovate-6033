@@ -4,7 +4,7 @@ stages:
   - test
 
 build:
-  image: node:12
+  image: node:12@sha256:44d3b16983346c5f48b27de2f52301d8dca64698c2680764d77198d81d9d1dc8
   stage: build
   
 test:
